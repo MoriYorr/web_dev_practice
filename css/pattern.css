@@ -1,0 +1,53 @@
+.btn {
+    font-family: 'Red Hat Text';
+    font-weight: 500;
+    color: var(--color-white-100);
+    background-color: var(--color-accent-100);
+    border: none;
+    border-radius: 10px;
+    box-shadow: var(--shadow-btn);
+    cursor: pointer;
+}
+.btn:hover,
+.btn:focus,
+.btn:active {
+    background-color: var(--color-accent-hover);
+}
+.btn--login {
+    width: 103px;
+    height: 41px;
+    font-size: 16px;
+}
+.btn--large {
+    width: 228px;
+    height: 59px;
+    font-size: 24px;
+    padding: 13px 31px;
+}
+.btn__icon {
+    flex-shrink: 0;
+}
+
+
+
+html{
+    box-sizing: border-box;
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+body{
+    font-family: 'Aleo';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: normal;
+    color: var(--color-accent-100);
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
