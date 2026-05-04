@@ -17,6 +17,7 @@
                   0px 0px 3px 0px var(--color-accent-08);
     --shadow-header: 0px 4px 4px var(--color-accent-50);
     --shadow-card: 0px 4px 4px var(--color-accent-100);
+    --shadow-pop-up: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 /* aleo-regular - latin */
 @font-face {

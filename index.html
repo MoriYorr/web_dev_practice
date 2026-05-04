@@ -114,6 +114,16 @@
                         <p class="destinations__country">USA</p>
                     </li>
                 </ul>
+                <!-- <div class="destinations__arrows">
+                    <button class="arrow arrow--left" type="button">
+                        <span class="arrow__line"></span>
+                        <span class="arrow__line"></span>
+                    </button>
+                    <button class="arrow arrow--right" type="button">
+                        <span class="arrow__line"></span>
+                        <span class="arrow__line"></span>
+                    </button>
+                </div>-->
                 <div class="destinations__dots">
                     <button class="des__slide_1"></button>
                     <button class="des__slide_2"></button>
@@ -248,6 +258,62 @@
         </div>
     </footer>
 <!-- pop-up -->
-    <div class="pop-up"></div>
+    <!-- log in -->
+    <div class="pop-up log-in__card">
+        <form class="log-in__form">
+            <h2 class="log-in__title">Log in to your account</h2>
+        
+                <button type="button" class="btn btn--account btn--facebook">
+                    <img src="./img/svg/logo-facebook.svg" alt="" class="logo-facebook">
+                    <span>Sign In with Facebook</span>
+                </button>
+                <button type="button" class="btn btn--account btn--google">
+                    <img src="./img/svg/logo-google.svg" alt="" class="logo-google">
+                    <span>Sign In with Google</span>
+                </button>
+
+            <div class="divider-or">
+                <span>or</span>
+            </div>
+            
+            <div class="input-group">
+                <label for="log__email" class="log-in__email pop__label">E-mail</label>
+                <input type="email" id="log__email" placeholder="" class="pop-up__input">
+            </div>
+            <div class="input-group">
+                <label for="log__password" class="log-in__password pop__label">Password</label>
+                <input type="password" id="log__password" placeholder="" class="pop-up__input">
+            </div>    
+
+            <button type="submit" class="btn--sign">Sign In</button>
+            <a href="#!" class="stylized-link pop-up__acc-recovery">Forgot Your Password?</a>
+            <hr class="divider-line">
+            <button type="button" class="switch-link" id="switchToRegister">
+                Don't have an account? <span class="stylized-link">Register</span>
+            </button>
+        </form>
+    </div>
+
+
+        
+    <!-- Register -->
+    <div class="pop-up">   
+        <form class="register__form">
+            <h2 class="log-in__title">Create account</h2>
+            <div class="input-group">
+                <label for="reg__email" class="register__email pop__label">E-mail</label>
+                <input type="email" id="reg__email" placeholder="" class="pop-up__input">
+            </div>
+            <div class="input-group">
+                <label for="reg__password" class="register__password pop__label">Password</label>
+                <input type="password" id="reg__password" placeholder="" class="pop-up__input">
+            </div>    
+            <button type="submit" class="btn--sign">Sign Up</button>
+            <hr class="divider-line">
+            <button type="button" class="switch-link" id="switchToLog-in">
+                Already have an account? <span class="stylized-link">Log in</span>
+            </button>
+        </form>
+    </div>
 </body>
 </html>
